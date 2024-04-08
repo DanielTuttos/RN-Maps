@@ -6,6 +6,19 @@
 	<array>
 		<string>Ionicons.ttf</string>
 	</array>
+
+	<!-- 🚨 Keep only the permissions used in your app 🚨 -->
+	<key>NSLocationAlwaysAndWhenInUseUsageDescription</key>
+	<string>Nacesito tu ubicación para mostrar el mapa</string>
+	<key>NSLocationTemporaryUsageDescriptionDictionary</key>
+	<dict>
+		<key>YOUR-PURPOSE-KEY</key>
+		<string>Nacesito tu ubicación para mostrar el mapa</string>
+	</dict>
+	<key>NSLocationWhenInUseUsageDescription</key>
+	<string>Nacesito tu ubicación para mostrar el mapa</string>
+	<!-- … -->
+
 	<key>CFBundleDevelopmentRegion</key>
 	<string>en</string>
 	<key>CFBundleDisplayName</key>
