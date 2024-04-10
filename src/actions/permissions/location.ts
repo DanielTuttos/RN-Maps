@@ -5,7 +5,7 @@ import {
   openSettings,
   request,
 } from 'react-native-permissions';
-import type {PermissionStatus} from '../../infrastructure';
+import type {PermissionStatus} from '../../infrastructure/interfaces';
 import {Platform} from 'react-native';
 
 export const requestLocationPermission =

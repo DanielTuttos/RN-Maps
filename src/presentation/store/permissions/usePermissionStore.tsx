@@ -1,5 +1,5 @@
 import {create} from 'zustand';
-import type {PermissionStatus} from '../../../infrastructure';
+import type {PermissionStatus} from '../../../infrastructure/interfaces';
 import {
   checkLocationPermission,
   requestLocationPermission,
